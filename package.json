@@ -1,6 +1,6 @@
 {
   "name": "iduck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NodeJS Wrapper to interfere with the DuckDuckGo Instant Answer API.",
   "main": "index.js",
   "scripts": {
