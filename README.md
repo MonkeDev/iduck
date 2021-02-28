@@ -11,24 +11,18 @@ duckduckgo = new iDuck('<t param>');
 
 ## Docs
 * [DuckDuckGo Instant Answer API Docs](https://api.duckduckgo.com/api)
-### Docs Syntax
-* | -> OR OPERATOR
-* (Optional | Required)
-* Everything else may seem self-explanatory | if you got questions then join the [Discord](https://discord.gg/tqeyYrS43A)
+If you got questions then join our [Discord Server](https://discord.gg/tqeyYrS43A)
+Expect more methods in the future, suggestions are open too :)
 
+* `search()` method
 ```js
-// Method
-iduck#search()
+// Example
+iDuck#search(query: string, {})
+    .then(res => console.log(res.Abstract));
 // Options
 {
-    no_redirect: true | false (Optional),
-    no_html: true | false (Optional)
-}
-// Other Params
-{
-    q: string (Required),
-    format: 'json',
-    pretty: 1,
-    t: this.t
+    no_redirect: true | false,
+    no_html: true | false,
+    skip_disambig: true | false
 }
 ```

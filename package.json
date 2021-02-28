@@ -1,6 +1,6 @@
 {
   "name": "iduck",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A NodeJS Wrapper to interfere with the DuckDuckGo Instant Answer API.",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,13 @@
   },
   "author": "MonkeDev",
   "license": "Apache-2.0",
+  "keywords": [
+    "duckduckgo",
+    "duck",
+    "iduck",
+    "instant Answer API",
+    "wrapper"
+  ],
   "bugs": {
     "url": "https://github.com/MonkeDev/iduck/issues"
   },
