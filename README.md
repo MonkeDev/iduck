@@ -6,7 +6,8 @@ A NodeJS Wrapper to interfere with the DuckDuckGo Instant Answer API.
 const iDuck = require('iduck'),
 duckduckgo = new iDuck('<t param>');
     duckduckgo.search('test', { no_html: true })
-        .then(console.log);
+        .then(console.log)
+        .catch(console.error);
 ```
 
 ## Docs
@@ -18,7 +19,8 @@ Expect more methods in the future, suggestions are open too :)
 ```js
 // Example
 iDuck#search(query: string, {})
-    .then(res => console.log(res.Abstract));
+    .then(res => console.log(res.Abstract))
+    .catch(console.error);
 // Options
 {
     no_redirect: true | false,
